@@ -16,37 +16,6 @@ Admins can manage slots and view bookings.
 
 5. Responsive UI for desktop and mobile
 
-📂 Project Structure
-
-frontend/
-
- ├── src/
- |   |
- │   ├── components/     # Reusable UI components
- |   |
- │   ├── pages/          # Pages (Login, Register, Dashboard, etc.)
- |   |
- │   ├── services/       # API calls to backend
- |   |
- │   ├── App.js          # Main app entry
- |   |
- │   ├── index.js        # React DOM entry
- |
- ├── public/
- |
- ├── package.json
- |
- └── README.md
- 
- 
-🛠️ Prerequisites
-
-Node.js v18+
-
-npm or yarn
-
-Backend API running (see backend repo)
-
 📦 Installation
 Clone the repository
 
@@ -76,8 +45,12 @@ If hosting separately, update .env to the correct backend URL.
 <img width="1919" height="861" alt="image" src="https://github.com/user-attachments/assets/42a08696-98fe-4ad5-b992-8e5fd645b80a" />
 <img width="1915" height="868" alt="image" src="https://github.com/user-attachments/assets/18fa6413-81e8-41ef-80c3-f73e51394681" />
 
-
-
 👨‍💻 Author
-Your Name
-LinkedIn | GitHub
+
+Nandhakumar Nagaraj
+
+Full Stack Developer Cum Trainer – Java / Node.js
+
+nandhakumar.n.dev@gmail.com
+
+I'm here to help.
