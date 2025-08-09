@@ -5,28 +5,39 @@ It allows patients to register, log in, view available appointment slots, and bo
 Admins can manage slots and view bookings.
 
 🚀 Features
-JWT-based authentication (patient & admin login)
 
-Role-based UI (admin and patient)
+1. JWT-based authentication (patient & admin login)
 
-View available slots
+2. Role-based UI (admin and patient)
 
-Book appointments
+3. View available slots
 
-Responsive UI for desktop and mobile
+4. Book appointments
+
+5. Responsive UI for desktop and mobile
 
 📂 Project Structure
 
 frontend/
+
  ├── src/
+ |   |
  │   ├── components/     # Reusable UI components
+ |   |
  │   ├── pages/          # Pages (Login, Register, Dashboard, etc.)
+ |   |
  │   ├── services/       # API calls to backend
+ |   |
  │   ├── App.js          # Main app entry
+ |   |
  │   ├── index.js        # React DOM entry
+ |
  ├── public/
+ |
  ├── package.json
+ |
  └── README.md
+ 
  
 🛠️ Prerequisites
 
@@ -63,7 +74,8 @@ If hosting separately, update .env to the correct backend URL.
 <img width="1919" height="866" alt="image" src="https://github.com/user-attachments/assets/f62bf497-8710-4af6-a19d-017356fbc71c" />
 <img width="1919" height="865" alt="image" src="https://github.com/user-attachments/assets/10b3f4e9-2bae-4cc2-8e33-0333b0baf8f2" />
 <img width="1919" height="861" alt="image" src="https://github.com/user-attachments/assets/42a08696-98fe-4ad5-b992-8e5fd645b80a" />
-<img width="1919" height="866" alt="image" src="https://github.com/user-attachments/assets/ea517fc1-fb2f-4031-832b-36ac90af023a" />
+<img width="1915" height="868" alt="image" src="https://github.com/user-attachments/assets/18fa6413-81e8-41ef-80c3-f73e51394681" />
+
 
 
 👨‍💻 Author
