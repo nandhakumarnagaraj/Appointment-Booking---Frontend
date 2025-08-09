@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+📅 Appointment Booking - Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the React-based frontend for the Appointment Booking System.
+It allows patients to register, log in, view available appointment slots, and book them.
+Admins can manage slots and view bookings.
 
-## Available Scripts
+🚀 Features
+JWT-based authentication (patient & admin login)
 
-In the project directory, you can run:
+Role-based UI (admin and patient)
 
-### `npm start`
+View available slots
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Book appointments
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Responsive UI for desktop and mobile
 
-### `npm test`
+📂 Project Structure
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+frontend/
+ ├── src/
+ │   ├── components/     # Reusable UI components
+ │   ├── pages/          # Pages (Login, Register, Dashboard, etc.)
+ │   ├── services/       # API calls to backend
+ │   ├── App.js          # Main app entry
+ │   ├── index.js        # React DOM entry
+ ├── public/
+ ├── package.json
+ └── README.md
+ 
+🛠️ Prerequisites
 
-### `npm run build`
+Node.js v18+
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+npm or yarn
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Backend API running (see backend repo)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+📦 Installation
+Clone the repository
 
-### `npm run eject`
+git clone [https://github.com//appointment-booking-frontend.git](https://github.com/nandhakumarnagaraj/Appointment-Booking---Frontend)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+cd appointment-booking-frontend
+Install dependencies
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+npm install
+Configure Environment Variables
+Create a .env file in the root:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+REACT_APP_API_URL=http://localhost:5000
+Run the app
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+npm start
+Frontend will run at:
 
-## Learn More
+http://localhost:3000
+🔗 Connecting to Backend
+Make sure your backend is running and accessible at the URL in .env (REACT_APP_API_URL).
+If hosting separately, update .env to the correct backend URL.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+📸 Screenshots
+<img width="1919" height="866" alt="image" src="https://github.com/user-attachments/assets/f62bf497-8710-4af6-a19d-017356fbc71c" />
+<img width="1919" height="865" alt="image" src="https://github.com/user-attachments/assets/10b3f4e9-2bae-4cc2-8e33-0333b0baf8f2" />
+<img width="1919" height="861" alt="image" src="https://github.com/user-attachments/assets/42a08696-98fe-4ad5-b992-8e5fd645b80a" />
+<img width="1919" height="866" alt="image" src="https://github.com/user-attachments/assets/ea517fc1-fb2f-4031-832b-36ac90af023a" />
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+👨‍💻 Author
+Your Name
+LinkedIn | GitHub
