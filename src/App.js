@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback, useMemo } from 'react';
 import './App.css';
 
-const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000/api';
+const API_URL = process.env.REACT_APP_API_URL || 'https://appointment-booking-backend-dayq.onrender.com/api';
 
 // Utility functions
 const formatDateTime = (dateStr) => {
